@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Manager Sign Up</title>
+  <link rel="stylesheet" href="/css/pmSignUp.css"> <!-- Link to your portfolio signup CSS file -->
+</head>
+<body>
+  <div class="signup-container">
+    <h1>Portfolio Manager Sign Up</h1>
+    <form action="/addManager" id="signup-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="created_by" pattern="[A-Za-z]+" title="Name should contain alphabets only" required>
+      <label for="login-id">Login ID:</label>
+      <input type="text" id="login-id" name="login_id" pattern="[A-Za-z0-9]+" title="Login ID should be alphanumeric" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{7,}" title="Password should be greater than 6 alphanumeric characters" required>
+      <button type="submit">Sign Up</button>
+    </form>
+    <p>Already have an account? <a href="/pmLogin">Login</a>
+      <a> / </a>
+      <a href="/home" class="home-icon" style="color: #090909;">&#8962;</a>
+    </p>
+  </div>
+  <footer>
+    <p>&copy; 2023 ABC Mutual Funds. All rights reserved.</p>
+  </footer>
+  <script src="portfolio-signup.js"></script> <!-- Link to your portfolio signup JavaScript file -->
+</body>
+</html>

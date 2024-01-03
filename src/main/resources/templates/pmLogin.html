@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Manager Login</title>
+  <link rel="stylesheet" href="css/pmLogin.css"> <!-- Link to your portfolio login CSS file -->
+</head>
+<body>
+  <div class="login-container">
+    <h1>Portfolio Manager Login</h1><br><br>
+    <form action="/pmLoginCheck" id="login-form">
+      <!-- <label for="name">Name:</label>
+      <input type="text" id="name" name="name" pattern="[A-Za-z]+" title="Name should contain alphabets only" required> -->
+      <label for="login-id">Login ID:</label>
+      <input type="text" id="login-id" name="loginid" pattern="[A-Za-z0-9]+" title="Login ID should be alphanumeric" required><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{7,}" title="Password should be greater than 6 alphanumeric characters" required><br>
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? 
+    <a href="/pmSignUp">Sign Up</a>
+    <a> / </a>
+    <a href="/home" class="home-icon" style="color: #090909;">&#8962;</a>
+    </p>
+  </div>
+  <script src="portfolio-login.js"></script> <!-- Link to your portfolio login JavaScript file -->
+</body>
+</html>

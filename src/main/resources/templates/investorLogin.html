@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investor Login</title>
+  <link rel="stylesheet" href="/css/investorLogin.css"> <!-- Link to your investor-login.css file -->
+</head>
+<body>
+  <div class="login-container">
+    <h1>Investor Login</h1>
+    <form action="/investorLoginCheck" id="login-form">
+      <!-- <label for="name">Name:</label>
+      <input type="text" id="name" required> -->
+      <label for="login-id">Login ID:</label>
+      <input type="text" name="loginid" id="loginid" required>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="/investorSignUp">Sign Up</a>
+      <a> / </a>
+      <a href="/home" class="home-icon" style="color: #090909;">&#8962;</a>
+    </p>
+  </div>
+  <script src="investor-login.js"></script> <!-- Link to your investor-login.js file -->
+</body>
+</html>

@@ -1,0 +1,99 @@
+body, h1, h2, h3, p, label, input, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('/image/pimg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+    
+  }
+  
+  .login-container {
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    opacity: 0.7;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    animation-duration: 1s;
+    animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+    
+  .header{
+    background-color: #555;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .signup-link {
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  #signup-link {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  #signup-link:hover {
+    text-decoration: underline;
+  }
+  

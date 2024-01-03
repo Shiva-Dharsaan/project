@@ -1,0 +1,18 @@
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dashboard styling */
+.body {
+ background-color: rgb(123, 71, 71);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f1ecec; 
+  font-family: Arial, sans-serif;
+}
+.button{
+  background-color: aqua;
+}
+

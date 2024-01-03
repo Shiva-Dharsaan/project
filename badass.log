@@ -1,0 +1,29 @@
+[2023-10-06 14:53:18,519] http-nio-8090-exec-1 com.example.project.controller.LoginController 55 ERROR - !!!  No such User with s as loginid  !!!
+[2023-10-06 14:53:24,350] http-nio-8090-exec-3 com.example.project.controller.LoginController 44 INFO  - Login Successfull :)
+[2023-10-06 14:53:29,071] http-nio-8090-exec-2 com.example.project.controller.LoginController 49 WARN  - !!!  Incorrect Password  !!!
+[2023-10-06 14:54:22,100] http-nio-8090-exec-4 com.example.project.controller.LoginController 29 INFO  - User created Successfully :)
+[2023-10-06 14:54:48,584] http-nio-8090-exec-5 com.example.project.controller.LoginController 31 INFO  - Mutual Fund created Sucessfully :)
+[2023-10-06 14:55:19,663] http-nio-8090-exec-6 com.example.project.controller.LoginController 48 WARN  - No mutual fund with id 94
+[2023-10-06 14:55:27,249] http-nio-8090-exec-7 com.example.project.controller.LoginController 43 INFO  - Getting total corpus for this mutual fund
+[2023-10-06 14:56:06,882] http-nio-8090-exec-8 com.example.project.controller.LoginController 43 INFO  - Getting the list of all Stocks
+[2023-10-06 14:56:14,384] http-nio-8090-exec-9 com.example.project.controller.LoginController 56 INFO  - Returning closing price of Coal India Ltd Stock
+[2023-10-06 14:56:21,231] http-nio-8090-exec-10 com.example.project.controller.LoginController 52 ERROR - No stock with the name Coal India L
+[2023-10-06 14:57:07,793] http-nio-8090-exec-1 com.example.project.controller.LoginController 60 INFO  - Seeing stocks held by a Mutual Fund
+[2023-10-06 14:57:13,388] http-nio-8090-exec-3 com.example.project.controller.LoginController 38 INFO  - Seeing stocks held by a Mutual Fund
+[2023-10-06 14:58:06,736] http-nio-8090-exec-2 com.example.project.controller.LoginController 73 INFO  - Subscribing to a Mutual Fund
+[2023-10-06 14:58:15,375] http-nio-8090-exec-4 com.example.project.controller.LoginController 85 INFO  - Redeeming from a Mutual Fund
+[2023-10-06 14:58:27,713] http-nio-8090-exec-5 com.example.project.controller.LoginController 61 INFO  - Seeing current holding of ss
+[2023-10-06 14:58:33,643] http-nio-8090-exec-6 com.example.project.controller.LoginController 61 INFO  - Seeing current holding of sd
+[2023-10-06 14:58:56,916] http-nio-8090-exec-7 com.example.project.controller.LoginController 29 INFO  - Showing Transaction History of sd
+[2023-10-06 14:59:07,797] http-nio-8090-exec-8 com.example.project.controller.LoginController 58 INFO  - Previous day nav of all mutual funds
+[2023-10-06 15:00:21,839] http-nio-8090-exec-10 com.example.project.controller.LoginController 49 WARN  - !!!  Incorrect Password  !!!
+[2023-10-06 15:00:22,520] http-nio-8090-exec-1 com.example.project.controller.LoginController 49 WARN  - !!!  Incorrect Password  !!!
+[2023-10-06 15:00:27,039] http-nio-8090-exec-3 com.example.project.controller.LoginController 44 INFO  - Login Successfull :)
+[2023-10-06 15:00:27,407] http-nio-8090-exec-2 com.example.project.controller.LoginController 44 INFO  - Login Successfull :)
+[2023-10-06 15:00:34,621] http-nio-8090-exec-4 com.example.project.controller.LoginController 55 ERROR - !!!  No such User with s as loginid  !!!
+[2023-10-06 15:00:35,677] http-nio-8090-exec-5 com.example.project.controller.LoginController 55 ERROR - !!!  No such User with s as loginid  !!!
+[2023-10-06 15:02:18,198] http-nio-8090-exec-7 com.example.project.controller.LoginController 43 INFO  - Getting total corpus for this mutual fund
+[2023-10-06 15:02:18,427] http-nio-8090-exec-8 com.example.project.controller.LoginController 43 INFO  - Getting total corpus for this mutual fund
+[2023-10-06 15:02:18,653] http-nio-8090-exec-9 com.example.project.controller.LoginController 43 INFO  - Getting total corpus for this mutual fund
+[2023-10-06 15:02:24,464] http-nio-8090-exec-10 com.example.project.controller.LoginController 48 WARN  - No mutual fund with id 22
+[2023-10-06 15:02:25,578] http-nio-8090-exec-1 com.example.project.controller.LoginController 48 WARN  - No mutual fund with id 22
